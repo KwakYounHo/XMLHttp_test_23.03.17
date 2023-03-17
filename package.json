@@ -1,0 +1,26 @@
+{
+  "name": "module_html",
+  "version": "1.0.0",
+  "description": "module > html test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KwakYounHo/XMLHttp_test_23.03.17.git"
+  },
+  "keywords": [
+    "module",
+    "html",
+    "relation"
+  ],
+  "author": "KwakYounHo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KwakYounHo/XMLHttp_test_23.03.17/issues"
+  },
+  "homepage": "https://github.com/KwakYounHo/XMLHttp_test_23.03.17#readme",
+  "dependencies": {
+    "mysql2": "^3.2.0"
+  }
+}

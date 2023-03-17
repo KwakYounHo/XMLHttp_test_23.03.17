@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    setTimeout(()=>{ // 동기처리
+      console.log('1번');
+      setTimeout(()=>{
+        console.log('2번');
+        setTimeout(()=>{
+          console.log('3번');
+          setTimeout(()=>{
+            console.log('4번');
+          },1000)
+        },2000)
+      },3000)
+    },4000);
+
+  </script>
+</body>
+</html>
